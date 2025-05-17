@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ST Movies.com</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.lordicon.com/lordicon.js"></script>
+    <!-- style
+        include style.css
+    script 
+        include index.js -->
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="left">
+                <img src="../static/logo1.png" alt="login">
+                <h3 id="title">STMovies.hd</h3>
+            </div>
+            <div class="mid">
+                <ul>
+                    <lord-icon src="https://cdn.lordicon.com/laqlvddb.json" trigger="hover" stroke="bold"
+                    |    colors="primary:#ffffff,secondary:#109173" style="width:30px;height:30px;">
+                    </lord-icon>
+                    <li><a href="/">Home</a></li>
+                    <lord-icon src="https://cdn.lordicon.com/msrokfyb.json" trigger="hover" stroke="bold"
+                    |    colors="primary:#ffffff,secondary:#109173" style="width:30px;height:30px">
+                    </lord-icon>
+                    <li><a href="/movies">Movies</a></li>
+                    <lord-icon src="https://cdn.lordicon.com/sdrxeanh.json" trigger="hover" stroke="bold"
+                    |    colors="primary:#ffffff,secondary:#109173" style="width:34px;height:34px">
+                    </lord-icon>
+                    <li><a href="/">Webseries</a></li>
+                    <lord-icon src="https://cdn.lordicon.com/ntbhoigy.json" trigger="hover" stroke="bold"
+                    |    colors="primary:#ffffff,secondary:#109173" style="width:34px;height:34px">
+                    </lord-icon>
+                    <li><a href="/">TV Shows</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <lord-icon src="https://cdn.lordicon.com/pagmnkiz.json" trigger="hover" stroke="bold"
+                |    colors="primary:#ffffff,secondary:#109173" style="width:32px;height:32px">
+                </lord-icon>
+                <div>
+                    <input id="searchbar" onkeyup="search_Movies()" type="text" name="search"
+                    |    placeholder="Search Movies..">
+                </div>
+            </div>
+        </nav>
+    </header>
+    <br>
+    <div id="tan">
+        <button class="content">Home</button>
+        <button class="content">Bllywood</button>
+        <button class="content">Hollywood</button>
+        <button class="content">Web series</button>
+        <button class="content">PC Games</button>
+        <button class="content">Punjabi</button>
+        <button class="content">Pakistani</button>
+        <button class="content">TV Shows</button>
+        <button class="content">HD Songs</button>
+        <button class="content">HEVC Movies</button>
+        <button class="content">Anime</button>
+    </div>
+    <br>
+    <br>
+    <br>
+    <h3 class="note">
+        Note: STMovies.hd is our only official website.
+    </h3>
+    <div class="para">
+      <h1>Welcome! Here you got the all time best Movies</h1>
+    </div>
+    <br>
+    <div>
+        <input type="button" value="download " id="greenbg">&nbsp;&nbsp;&nbsp;<input type="button" value="Watch online"
+        |    id="greenbg">
+        <br>
+        <div>
+            <a class="link" href="https://hubfiles.com">hubfiles.com </a>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
+    <form onreset="myFunction()" id="formID" action="/" method="post">
+        Comment: </b><br> <textarea name="comment" rows="10" cols="60" class="greybg"></textarea><br><br>
+           Your's Email: <input type="text" name="email" id="Email">
+            <input type="submit" value="Submit" id="submit">
+            <input id="greenbg" type="reset" value="Reset">
+    </form>
+
+
+
+</body>
+</html>
